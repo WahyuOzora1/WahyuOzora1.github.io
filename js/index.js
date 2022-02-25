@@ -65,6 +65,11 @@ $(document).ready(function () {
     })
 });
 
+
+function scroll() {
+    var elmnt = document.getElementById("unggulan");
+    elmnt.scrollIntoView();
+}
 // scolll id
 
 $(document).ready(function () {
@@ -91,6 +96,8 @@ $(document).ready(function () {
         } // End if
     });
 });
+
+
 
 
 
