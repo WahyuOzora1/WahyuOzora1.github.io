@@ -777,6 +777,49 @@ footer {
 .toggle {
   display: none;
 }
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+.portfolio-box {
+  display: flex;
+  flex-grow: 0.1;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  margin: 20px;
+}
+.portfolio-img {
+  width: 200px;
+  height: 210px;
+  margin: 20px;
+  position: relative;
+}
+.portfolio-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.portfolio-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  border-top: 1px solid #f3f3f3;
+}
+
+.portfolio-box:hover {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ===================== Tablet ============================================= */
+
 @media (max-width: 1010px) {
   nav {
     position: relative;
@@ -922,6 +965,9 @@ footer {
     height: 200px;
   }
 }
+
+/* ======================= HP ============================ */
+
 @media (max-width: 600px) {
   .navigation {
     padding: 10px;
