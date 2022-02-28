@@ -777,9 +777,11 @@ footer {
   z-index: 102;
 }
 
-.toggle {
-  display: none;
-}
+  .toggle {
+    display: block;
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
 
 .portfolio-container {
   display: grid;
