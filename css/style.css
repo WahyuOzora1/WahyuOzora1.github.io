@@ -1020,7 +1020,7 @@ footer {
   }
   .f-slider-btn,
   .banner-btn {
-    padding: 20px;
+    padding: 10px;
     width: 120px;
     height: 30px;
     font-size: 0.8rem;
@@ -1125,6 +1125,10 @@ footer {
 
   .portfolio-details a {
     text-align: center;
+  }
+
+  .portfolio-details .f-slider-btn {
+    padding: 20px;
   }
 
   .copyright {
