@@ -561,6 +561,7 @@ font {
   color: #808080;
   margin: 10px;
   font-size: 0.9rem;
+  text-align: justify;
 }
 
 .product-container {
@@ -824,6 +825,10 @@ footer {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
 }
 
+.detail-portfolio {
+  margin: 20px;
+}
+
 .detail-portfolio a {
   margin: 10px;
 }
@@ -984,6 +989,10 @@ footer {
     text-align: center;
   }
 
+  .detail-portfolio {
+    margin: 10px;
+  }
+
   .detail-portfolio a {
     margin: 10px;
     font-size: 0.8rem;
@@ -1089,7 +1098,7 @@ footer {
   .new-arrival p,
   .feature-heading p {
     font-size: 0.8rem;
-    text-align: center;
+    text-align: justify;
   }
 
   .product-container {
