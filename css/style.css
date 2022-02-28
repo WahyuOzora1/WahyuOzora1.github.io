@@ -382,6 +382,8 @@ nav {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 14px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .f-slider-text strong font {
@@ -814,8 +816,20 @@ footer {
   border-top: 1px solid #f3f3f3;
 }
 
+.portfolio-details a {
+  text-align: center;
+}
+
 .portfolio-box:hover {
   box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+
+.detail-portfolio a {
+  margin: 10px;
+}
+
+.detail-portfolio a:hover {
+  color: red;
 }
 
 /* ===================== Tablet ============================================= */
@@ -918,6 +932,7 @@ footer {
   }
 
   .f-slider-btn {
+    padding: 10px;
     width: 100;
     height: 30px;
     font-size: 0.7rem;
@@ -964,6 +979,15 @@ footer {
   .sale-box {
     height: 200px;
   }
+
+  .portfolio-details a {
+    text-align: center;
+  }
+
+  .detail-portfolio a {
+    margin: 10px;
+    font-size: 0.8rem;
+  }
 }
 
 /* ======================= HP ============================ */
@@ -987,6 +1011,7 @@ footer {
   }
   .f-slider-btn,
   .banner-btn {
+    padding: 20px;
     width: 120px;
     height: 30px;
     font-size: 0.8rem;
@@ -1088,6 +1113,11 @@ footer {
   .services-box {
     width: 100%;
   }
+
+  .portfolio-details a {
+    text-align: center;
+  }
+
   .copyright {
     margin: 20px 0px;
     text-align: center;
@@ -1128,6 +1158,8 @@ footer {
 .my-whatsapp {
   margin-top: 16px;
 }
+
+/* ==========================Tentang kami===================================== */
 
 .contact-bg {
   height: 40vh;
